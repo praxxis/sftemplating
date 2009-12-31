@@ -1,0 +1,3 @@
+[submodule "vendor/templating"]
+	path = vendor/templating
+	url = git://github.com/fabpot/templating.git
