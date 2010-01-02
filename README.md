@@ -1,6 +1,6 @@
 # What? #
 
-This project is an interface between Kohana and the [Symfony Compoments templating library](http://components.symfony-project.org/templating/). 
+This project is an interface between Kohana and the [Symfony Components templating library](http://components.symfony-project.org/templating/). 
 
 # Why? #
 
