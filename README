@@ -1,1 +1,11 @@
-Hi!
+# What? #
+
+This project is an interface between Kohana and the [Symfony Compoments templating library](http://components.symfony-project.org/templating/). 
+
+# Why? #
+
+Because I liked the syntax of the Symfony templating library!
+
+# How? #
+
+Just extend `Controller_sfTemplate` when creating your controller. The controller will try and guess the template file to use (it will default to `<controller>/<action≥.php`)
