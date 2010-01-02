@@ -26,8 +26,10 @@ class Kohana_sfTemplate {
 			// load any helpers that we've defined
 			if (!empty(Kohana_sfTemplate::$config->helpers)) {
 				$helpers = array();
-				foreach (Kohana_sfTemplate::$config->helpers as $helper) {
-					$helpers[] = new $helper;
+				foreach (Kohana_sfTemplate::$config->helpers as $helper => $enabled) {
+					if ($enabled) {
+						$helpers[] = new $helper;
+					}
 				}
 
 				$helper_set = new sfTemplateHelperSet($helpers);
